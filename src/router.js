@@ -18,7 +18,7 @@ const router = new VueRouter({
 			component: () => import('@/pages/QuestionSearch'),
 			meta: { title: '帮助中心' }
 		}, {
-			path: '/voteList',
+			path: '/voteList/:articleId',
 			component: () => import('@/pages/VoteList'),
 			meta: { title: '投票列表' }
 		}, {
