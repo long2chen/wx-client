@@ -6,6 +6,7 @@
         <van-grid :column-num="3">
             <van-grid-item icon="vip-card-o" to="/wxLogin" text="微信登录" />
             <van-grid-item icon="chat-o" to="/subscribe" text="通知订阅" />
+            <van-grid-item icon="chat-o" to="/voteList" text="投票列表" />
             <van-grid-item icon="phone-o" text="联系我们" @click="showFollowMOdal=true" />
         </van-grid>
         <div class="padding padding-bottom-sm text-gray text-df">文章分类</div>

@@ -13,10 +13,14 @@ const router = new VueRouter({
 			path: '/wxLogin',
 			component: () => import('@/pages/WxLogin'),
 			meta: { title: '微信登录示例' }
-		},{
+		}, {
 			path: '/questionSearch',
 			component: () => import('@/pages/QuestionSearch'),
 			meta: { title: '帮助中心' }
+		}, {
+			path: '/voteList',
+			component: () => import('@/pages/VoteList'),
+			meta: { title: '投票列表' }
 		}, {
 			path: '/questionCategory',
 			component: () => import('@/pages/QuestionCategory'),

@@ -2,7 +2,7 @@ import fly from '../js/request';
 import cookie from './cookie'
 const APPID = process.env.VUE_APP_WX_APPID;
 const WX_AUTH_URL = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid=' + APPID
-    + '&redirect_uri=REDIRECT_URI&response_type=code&scope=snsapi_base&state=0#wechat_redirect';
+    + '&redirect_uri=http://45g958t712.vicp.fun/wx/wxAuth/codeToOpenid&response_type=code&scope=snsapi_base&state=0#wechat_redirect';
 
 /**
  * 微信授权

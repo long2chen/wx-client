@@ -8,7 +8,7 @@ export default function wxShare(path = '/', desc = defaultDesc) {
     if (!isWeixinBrowser()) {
         return;
     }
-    let shareUrl = window.location.origin + '/client/' + window.location.hash;
+    let shareUrl = window.location.origin + window.location.hash;
     loadShareSignature();
     wx.ready(function () {
         console.log('shareUrl:' + shareUrl);
